@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,600;10..48,700&family=IBM+Plex+Mono:wght@300;400;600;700&family=Rubik+Iso&display=swap');
+
+/*--- RESET ---*/
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;  
+}
+
+.header {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+html {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,h2, h3, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+button{
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
